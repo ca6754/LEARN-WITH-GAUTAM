@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#04110d">
+<meta name="description" content="Learn Stock Market, Trading Strategies & Market Insights with Gautam. Join our free Telegram community.">
+<title>Learn with Gautam | Official Telegram Channel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#04110d;--bg2:#0a2a20;--card:#0b1f19;--line:#1f6b4f;--line2:#2d8f6b;
+  --text:#ffffff;--muted:#8fb8a8;--orange:#ff8a3d;--teal:#5fd3c0;--green:#22d37a;
+  --tg1:#2aabee;--tg2:#229ed9;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{
+  font-family:"Space Grotesk","Noto Sans Devanagari",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--text);min-height:100vh;
+  background:
+    linear-gradient(rgba(34,211,122,.045) 1px,transparent 1px) 0 0/34px 34px,
+    linear-gradient(90deg,rgba(34,211,122,.045) 1px,transparent 1px) 0 0/34px 34px,
+    radial-gradient(ellipse at 50% 0%,var(--bg2) 0%,var(--bg) 70%);
+  background-attachment:fixed;
+  padding:calc(36px + env(safe-area-inset-top,0px)) 20px calc(36px + env(safe-area-inset-bottom,0px));
+}
+.wrap{max-width:420px;margin:0 auto;display:flex;flex-direction:column;align-items:center;text-align:center}
+.avatar{
+  width:96px;height:96px;border-radius:50%;padding:3px;
+  background:linear-gradient(135deg,#ffb36b,#ff8a3d 45%,#8a3b0c);
+  box-shadow:0 0 28px rgba(255,138,61,.35);
+}
+.avatar>div,.avatar img{
+  width:100%;height:100%;border-radius:50%;display:flex;align-items:center;justify-content:center;
+  background:#17251f;border:3px solid #04110d;object-fit:cover;
+  font-size:34px;font-weight:700;color:#ffd9b8;
+}
+.badge{
+  margin-top:18px;padding:4px 14px;border-radius:999px;font-size:11px;font-weight:500;
+  color:var(--green);border:1px solid var(--green);background:rgba(34,211,122,.08);
+}
+h1{margin-top:22px;font-size:28px;font-weight:700;letter-spacing:.3px}
+.tag{margin-top:6px;font-size:13px;color:var(--teal)}
+.stats{margin-top:26px;width:100%;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.stat{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 6px;
+}
+.stat b{display:block;font-size:15px;color:var(--orange);font-weight:700}
+.stat span{display:block;margin-top:2px;font-size:10.5px;color:var(--muted)}
+.cta{
+  margin-top:26px;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  padding:12px 18px;border-radius:999px;text-decoration:none;color:#fff;
+  background:linear-gradient(180deg,var(--tg1),var(--tg2));
+  box-shadow:0 8px 24px rgba(34,158,217,.35);transition:transform .15s,filter .15s;
+}
+.cta:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.cta:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.cta .row{display:flex;align-items:center;gap:8px;font-size:17px;font-weight:700}
+.cta svg{width:22px;height:22px}
+.cta small{margin-top:2px;font-size:11px;font-weight:500;opacity:.95}
+.why{
+  margin-top:34px;width:100%;text-align:left;
+  font-family:"JetBrains Mono",ui-monospace,monospace;font-size:11px;color:var(--muted);letter-spacing:1.5px;
+}
+.list{margin-top:14px;width:100%;display:grid;gap:14px}
+.item{
+  display:flex;align-items:center;gap:12px;text-align:left;
+  background:linear-gradient(180deg,#0c2a21,#08171a);border:1px solid var(--line2);border-radius:14px;
+  padding:20px 18px;font-size:13px;font-weight:500;
+}
+.item::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--orange);flex:none;box-shadow:0 0 8px var(--orange)}
+.ads{margin-top:34px;font-size:11px;color:var(--muted)}
+.ads a{color:#fff;font-weight:700;text-decoration:none;background:rgba(95,120,255,.35);padding:2px 6px;border-radius:4px}
+.ads a:focus-visible{outline:2px solid #fff;outline-offset:2px}
+.disc{
+  margin-top:22px;width:100%;text-align:left;font-size:11px;line-height:1.55;color:#7da392;
+  border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:rgba(11,31,25,.6);
+}
+.disc strong{color:#b9d9cb}
+</style>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1496689569022170');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1496689569022170&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+</head>
+<body>
+<main class="wrap">
+  <div class="avatar" aria-hidden="true">
+    <!-- Apni photo ke liye <div>LG</div> ko <img src="gautam.png" alt="Learn with Gautam"> se replace karein -->
+    <div>LG</div>
+  </div>
+
+  <span class="badge">🇮🇳 Free Educational Community</span>
+  <h1>LEARN WITH GAUTAM</h1>
+  <p class="tag">Simple Market Analysis &amp; Daily Updates</p>
+
+  <div class="stats">
+    <div class="stat"><b>100% Free</b><span>No Hidden Charges</span></div>
+    <div class="stat"><b>Daily</b><span>Hindi &amp; English Analysis</span></div>
+    <div class="stat"><b>Active</b><span>Live Community</span></div>
+  </div>
+
+  <a class="cta" href="https://t.me/+oS2vqn5mpCkwZDQ1" target="_blank" rel="noopener">
+    <span class="row">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0a12 12 0 100 24 12 12 0 000-24zm5.6 8.2l-1.9 8.9c-.14.63-.5.78-1.02.49l-2.8-2.07-1.35 1.3c-.15.15-.28.28-.57.28l.2-2.86 5.2-4.7c.23-.2-.05-.31-.35-.11l-6.43 4.05-2.77-.87c-.6-.19-.62-.6.13-.89l10.8-4.16c.5-.18.94.12.78.89z"/></svg>
+      Join Telegram Channel
+    </span>
+    <small>Telegram पर फ्री जॉइन करने के लिए क्लिक करें</small>
+  </a>
+
+  <p class="why">WHY JOIN US? / क्यों जुड़ें?</p>
+  <div class="list">
+    <div class="item">Educational Market Insights &amp; Commentary</div>
+    <div class="item">Educational Concepts on Price Action &amp; Charting (हिंदी/English)</div>
+    <div class="item">Risk Management &amp; Trading Discipline Guidance</div>
+  </div>
+
+  <p class="ads">🚀 Ads Managed by <a href="https://t.me/Digitalsameerads" target="_blank" rel="noopener">@Digitalsameerads</a></p>
+
+  <p class="disc"><strong>Disclaimer:</strong> Content shared is purely for educational purposes only and should not be considered financial or investment advice. We are not SEBI registered. Trading and investing in stock markets involve substantial risk of loss.</p>
+</main>
+</body>
+</html>
